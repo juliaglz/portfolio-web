@@ -1,0 +1,22 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: custom font (can be replaced or removed) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #1f2937; /* Tailwind's gray-800 */
+  line-height: 1.6;
+}
+
+a {
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #2563eb; /* Tailwind's blue-600 */
+}
